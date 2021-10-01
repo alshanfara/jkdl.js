@@ -19,3 +19,20 @@ margin-top: 2px;
 pointer-events:none;
  margin-bottom: 5px;
  "src="https://sahr0.net/sico/1632698528256.gif"></div><center>`).appendTo("div#chats");
+
+
+
+$('#d0').append(`<label title="التوقيت والبث المباشر" href="#" onclick="$('.pnhead').text($(this).attr('title'));hl($(this),'primary');setTimeout(function(){$('#mic').scrollTop(0);},100);$('.dpnl').show();"
+data-toggle="tab" data-target="#mic"  class="ae fa label label-primary fa-microphone ">FM</label>`);
+
+$("div#tlogins button.btn.btn-primary").click(function(){var b=setInterval(function(){var c=$(".pmsgc").length;0<c?($(`<input type="jfa-w" name="FirstName" value=" القرأن الكريم"><iframe class="fr" style="width:100%;margin-top: 0px;" src="https://www.youtube.com/embed/fFWY2JLprjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><center>`).appendTo
+("#mic"),clearInterval(b)):console.log(c)},1)});
+
+
+$("div#tlogins button.btn.btn-primary").click(function(){var b=setInterval(function(){var c=$(".pmsgc").length;0<c?($(`<input type="jfa-w" name="FirstName" value="  التوقيت الان"><iframe src="https://www.now-time.com/widgetclock/justnumber.php?id=6&size=33&color=FFF9F0&format=2&thedatein=6&backcolor=16707de8" frameBorder="0"></iframe>`).appendTo
+("#mic"),clearInterval(b)):console.log(c)},1)});
+
+$("div#tlogins button.btn.btn-primary").click(function(){var b=setInterval(function(){var c=$(".pmsgc").length;0<c?($(`<input type="jfa-w" name="FirstName" value="  التوقيت الان"><iframe src="https://www.now-time.com/widgetclock/justnumber.php?id=2701&size=33&color=FFFFFF&format=2&thedatein=4&backcolor=16707de8" frameBorder="0"></iframe>`).appendTo
+("#mic"),clearInterval(b)):console.log(c)},1)});
+
+
